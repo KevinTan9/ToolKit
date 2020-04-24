@@ -1,0 +1,16 @@
+{
+  "main_win": {
+    "title": "ToolKit",
+    "size": {
+      "width": 800,
+      "height": 500
+    },
+    "background": "#FFFFFF"
+
+  },
+  "display_test_auto": {
+    "id": 1
+
+  }
+
+}
