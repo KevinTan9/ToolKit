@@ -80,3 +80,10 @@ def display_test_auto_cmd():
 create_catalog(frame_left, "display_test_auto", [0, 0], display_test_auto_cmd)
 
 
+
+
+git git git
+
+
+
+
