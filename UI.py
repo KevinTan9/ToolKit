@@ -49,46 +49,17 @@ main.title(main_title)
 main.geometry("%sx%s" % (main_width, main_height))
 set_center(main, main_width, main_height)
 
-
 # frame layout
 
-frame_left = tk.Frame(main, bg="yellow", width=main_width // 2, height=main_height)
+frame_left = tk.Frame(main, bg="black", width=200, height=main_height)
 frame_right = tk.Frame(main, bg="blue", width=main_width // 2, height=main_height)
 frame_left.pack(side="left")
 frame_right.pack(side="right")
 
 
-
-
-
-# create function catalog
-
-def create_catalog(window, fun_name, layout, cmd):
-
-    but = tk.Button(window, text=fun_name, width=30, command=cmd)
-    but.grid(row=layout[0], column=layout[1])
-
-
-
-# command functions
-
-def display_test_auto_cmd():
-    pass
-
-
-
-create_catalog(frame_left, "display_test_auto", [0, 0], display_test_auto_cmd)
-
-
-
-
-git git git
-
-
-hello git
-
-
-
-
-
-
+lab1 = tk.Button(frame_left, text="lab1", width=frame_left.winfo_y(), bg="red")
+lab2 = tk.Button(frame_left, text="lab2", width=10, bg="yellow")
+lab3 = tk.Button(frame_left, text="lab3", width=10, bg="blue")
+lab1.pack()
+lab2.pack()
+lab3.pack()
